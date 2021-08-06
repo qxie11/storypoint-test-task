@@ -1,0 +1,29 @@
+.card {
+  position: relative;
+}
+
+.image {
+  height: 200px;
+}
+
+.link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
