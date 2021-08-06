@@ -29,7 +29,7 @@ const ImageCard: React.FC<Props> = ({
 }) => {
   return (
     <Card className={styles.card}>
-      <Link className={styles.link} to={`images/${id}`} />
+      <Link className={styles.link} to={`images/?id=${id}`} />
       <CardActionArea>
         <CardMedia
           image={imageUrl}

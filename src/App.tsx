@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Index} />
-          <Route exact path="/images/:id" component={ImageInfo} />
+          <Route exact path="/images" component={ImageInfo} />
           <Redirect to="/" />
         </Switch>
       </Router>
